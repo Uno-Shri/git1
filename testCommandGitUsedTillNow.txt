@@ -1,0 +1,30 @@
+open gitbash -> mk dir Uno-git
+creats folder
+
+
+use gitbash here
+git init     it creates.git package hidden sort of 
+
+git remote add origin "https://github.com/Uno-Shri/git1.git"
+
+following copies files ffrom remote to local  in Uno-git folder
+
+
+git pull origin master 
+or 
+git pull "https://github.com/Uno-Shri/git1.git"
+
+
+git status 
+
+git add -A     //add all files 
+
+
+
+
+
+NOTE
+What is Pathspec git?
+The pathspec is the mechanism that git uses for limiting the scope of a git command to a subset of the repository.
+ If you have used much git, you have likely used a pathspec whether you know it or not.
+ For example, in the command git add README.md , the pathspec is README.md 

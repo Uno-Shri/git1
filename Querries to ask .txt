@@ -2,3 +2,27 @@ i noticed when I add ,   git add file1   it works no error
 when I add git add file 1   it give fatal:
 
 GitPull = git fetch  +merge
+
+How to pUSH
+creat public SSH key add in git repo
+
+git add -A
+git commit -a -m "all commit"
+
+
+if u r in firsbranch
+git rebase master   //current branch first branch is up to date -   //what evr isin master is alredy in firstbranch
+
+
+git checkout master
+git rebase firstbranch
+
+SSH key genration -
+ssh-keygen
+
+Your identification has been saved in /c/Users/Shrikant/.ssh/id_rsa
+Your public key has been saved in /c/Users/Shrikant/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:A6mr4nsJx6UEKIkA+kDgbJHpDQ8ya+JMcLgb7vCEVoU Shrikant@NomadicShri
+
+
