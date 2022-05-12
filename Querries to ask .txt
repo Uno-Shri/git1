@@ -1,0 +1,4 @@
+i noticed when I add ,   git add file1   it works no error
+when I add git add file 1   it give fatal:
+
+GitPull = git fetch  +merge
